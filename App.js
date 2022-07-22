@@ -8,6 +8,7 @@ export default function App() {
 
     Increment = () => {
         setCounter(counter++);
+        console.log(counter);
     }
 
     Decrement = () => {
