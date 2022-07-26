@@ -10,7 +10,7 @@ export default function App() {
     <View style={styles.container}>
       {/* above style={styles.container} we have declared the name of container by (container) which has all th designing properties  */}
       <View>
-        <Text> piese of text</Text>
+        <Text> piese of text and this is something</Text>
         {/* this is text part in our application it work like h1 h2 h3 ...*/}
       </View>
       <Text style={{ margin: 10, borderWidht: 2, borderColor: "orange" }}>
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     flex: 1,
     // In The react native a number is treated as self unit like (px , vh , vw ...)
     backgroundColor: "white",
+  
     alignItems: "center",
     justifyContent: "center",
   },
